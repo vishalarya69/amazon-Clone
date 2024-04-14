@@ -1,0 +1,69 @@
+.amazon-pay-container{
+  /* border: 4px solid red; */
+  width: 100%;
+  min-height: auto;
+  
+  
+}
+.h111{
+    font-weight: bold;
+    font-size: large;
+}
+
+.amazon-pay-header{
+  /* border: 2px solid gray; */
+  height: 10%;
+
+
+}
+.amazon-pay-header img{
+  height: 100%;
+}
+.amazon-pay-section{
+  
+  height: 10%;
+  width: 100%;
+  font-size: smaller;
+  text-align: center;
+}
+  
+
+.amazon-pay-option1{
+  border: 2px solid ;
+  height: 100%;
+  display: flex;
+  
+  justify-content: space-around;
+  margin: 30px;
+}
+.amazon-pay-option1 img{
+  height: 40%;
+  width: 40%
+}
+  .amazon-pay-image{
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+  }
+  /* .pay-main-div{
+    align-items: center; */
+    
+  
+
+  .div-baner{
+    width: 60%;
+    height: 150px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.div-baner{
+  margin-top:20px ;
+}

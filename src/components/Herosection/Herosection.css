@@ -1,0 +1,115 @@
+
+.image-container{
+       position: relative;
+       overflow: hidden;
+}
+.image-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image-item {
+    flex: 0 0 100%;
+  }
+
+
+.image-item ,img{
+       width: 100%;
+       height: 100%;
+      
+}
+
+.image-btn-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.slider-btn{
+    border: 1px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+
+}
+.slider-btn i{
+
+}
+
+.slider-btn:focus{
+
+    border-color: seagreen;
+    box-shadow: -2px -2px -2px rgb(230, 227, 227),
+    2px 2px 2px  white;
+    margin: 2px;
+
+}
+
+/* card */
+
+.main{
+  position: relative;
+  top: -300px;
+}
+.card-product-container{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card-product{
+  background-color: white;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow:  -5px -5px 10px rgb(0,0,0,0.1),
+  10px 10px 100px rgb(255,255,255,0.1);
+  
+
+}
+
+.card-product h2{
+  margin: 0;
+  padding: 10px;
+  
+}
+
+
+.card-product-ne-card{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-ne{
+   
+}
+
+
+.card-ne p{
+   /* margin: 5px;    */
+   font-size: 13px;
+}
+
+.card-ne img{
+  width: 128px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.card-product-btn{
+  font-size: 14px;
+  align-self: flex-start;
+  margin: 7px 10px;
+  padding-left: 0;
+  background-color: transparent;
+  border: none;
+  color: aqua;
+}

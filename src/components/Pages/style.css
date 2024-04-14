@@ -1,0 +1,28 @@
+
+.head{
+    display: flex;
+    font-size: large;
+}
+.filter{
+    list-style-type: none;
+    padding: 13px;
+    font-size: 20px;
+    margin-left: auto;
+    text-align: center;
+    color: blue;
+}
+.homeProducts .productRow{
+    display: flex;
+    padding: 30px 0px;
+}
+.homeProducts .productRow .item{
+    width: 18%;
+    padding: 0px 15px;
+}
+
+.itemhai{
+    width: 50%;
+}
+.productRow{
+margin-top: 50px;
+}

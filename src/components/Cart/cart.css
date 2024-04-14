@@ -1,0 +1,48 @@
+
+
+.total {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 100%; 
+  max-width: 100% 
+  
+}
+
+h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.total-amount {
+  font-size: 36px;
+  font-weight: bold;
+  color: #007bff;
+
+}
+
+@media screen and (max-width: 600px) {
+  .total {
+      width: 90%; 
+  }
+}
+
+.checkout
+{
+  background: #f7ca00;
+  
+  /* border-radius: 100px; */
+  
+  box-sizing: border-box;
+  font-size: 20px;
+  transition: 0.5s;
+  width: 36%;
+  height: 30px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  cursor: pointer;
+}
+.checkout :hover{
+  transform: scale(2, 0.5)
+}

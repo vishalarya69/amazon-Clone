@@ -1,0 +1,57 @@
+.productThumb{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid rgba(0,0,0,0.2); */
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+}
+.productThumb:hover{
+    border: 2px dotted  black;
+}
+.productThumb .ii{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 65%;
+}
+.productThumb .title{
+    color: green;
+    font-size: 20px;
+}
+.productThumb .brand{
+    margin: 10px 0px ;
+}
+.productThumb .btn{
+    background-color: rgba(209, 113, 4, 0.884);
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+}
+.productThumb .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.head2{
+    display: flex;
+    margin-left: 25px;
+}
+.coupon1{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.coupon2 .cop{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.coupon1 .cop{
+   
+    width: 100%;
+}

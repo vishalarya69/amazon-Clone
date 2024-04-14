@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+  }
+  
+  .main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .cart-main-div{
+    width: 230px;
+    height: 500px;
+    border: 1px solid rgb(59, 59, 59) ;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-div-hai{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .img-div-hai>img{
+    width: 100%;
+    height: 100%;
+  }
+  .span-hai-ye{
+    font-weight: bold;
+  }
+  .content-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .title-div{
+    margin-bottom: 1px;
+    font-size: smaller;
+    font-weight: bold;
+
+  }
+  .price-div{
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .free-deliveryy{
+    font-size: smaller;
+  }
+  h4{
+    color: black;
+    text-decoration-line: none;
+  }
+  .addtocart{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: gold;
+    position:absolute ;
+    bottom: 0;
+  }
+  .cart-cart-cart{
+    position: relative;
+  }
+  .cart-icon{
+    position: relative;
+  }
+  .cart-count{
+    position: absolute;
+    color: red;
+    top: 0;
+    right: 45px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* add to cart */
+
+  .cart-main-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainn{
+    margin-top: 40px;
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.one {
+    width: 20%;
+}
+
+.one img {
+    width: 80%;
+}
+
+.text-decoration-line {
+    text-decoration-line: none;
+}
+
+.checkbox-container {
+    width: 10%;
+    display: flex;
+    justify-content: center; /* Align content horizontally in the center */
+}
